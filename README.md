@@ -5,9 +5,9 @@
 mkdir -p ~/sdks/zephyr
 cd ~/sdks/zephyr
 python3 -m pip install west --user
-python3 -m pip install -r ~/sdks/zephyr/zephyr/scripts/requirements.txt
 west init
 west update
+python3 -m pip install -r ~/sdks/zephyr/zephyr/scripts/requirements.txt
 ```
 add these to your .bashrc/.zshrc
 ```
